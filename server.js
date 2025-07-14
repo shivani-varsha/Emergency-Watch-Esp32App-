@@ -208,7 +208,7 @@ app.post('/emergency', async (req, res) => {
   const wifiData = req.body.wifiAccessPoints;
   console.log('Received Wi-Fi data:', wifiData);
 
-  const googleApiKey = 'AIzaSyCaeuDNhkBe6k5xVV43gNucvYdDLdlsiJ8'; // Replace with your actual Google API key
+  const googleApiKey = ''; // Replace with your actual Google API key
   const googleGeolocationUrl = `https://www.googleapis.com/geolocation/v1/geolocate?key=${googleApiKey}`;
 
   try {
